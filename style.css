@@ -1,6 +1,7 @@
 *{
-    font-family: 'Amatic SC', cursive;
-    
+  
+    border-style: solid;
+    border-color: black;
    
   }
   /*HEADER*/
@@ -12,10 +13,12 @@
       justify-content: space-between;
       background-color: orangered;
       color:white;
-      font-family: 'Amatic SC', cursive;
       border-style: solid;
       border-color: black;
       z-index: 1;
+    }
+    header a{
+      color: white !important;
     }
     h1{
       padding-left: 100px;
@@ -45,7 +48,6 @@
 h2{
 margin-top: 2%;
 text-align: center;
-font-family: 'Amatic SC', cursive;
 }
 .about_img{
 height: 350px;
@@ -103,9 +105,7 @@ footer{
  
 }
 */
-a{
-color: white;
-}
+
 .footer-icon:hover{
 color:orangered;
 }
@@ -128,7 +128,6 @@ color:orangered;
 }
 h3{
   text-align: center;
-  font-family: 'Amatic SC', cursive;
 }
 .imgWtext{
   width:30%;
@@ -188,13 +187,46 @@ label{
 }
 .pizza_name{
   background-color: white;
-  font-size: 40px;
+  font-size: 1.5em;
+  margin-right: 1%;
 
 }
+.checkbox{
+  margin-left: 2%;
+}
+
 form{
   margin-top: 5%;
 }
 .row-apples{
   text-align: center;
   margin: auto;
+}
+.payment{
+  display: flex;
+  border-style: solid;
+  border-color: black;
+}
+.billing_address{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5%;
+  text-align: left;
+  
+}
+.payment_info{
+  padding-left:10%;
+  text-align: left;
+  
+
+}
+#submit{
+  font-size: 1.5em;
+  color:white;
+  background-color: darkred;
+  border-style: solid;
+  border-color: black;
+
+}
+.two_column{
+  display: flex;
 }
