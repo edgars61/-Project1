@@ -1,9 +1,4 @@
-*{
-  
-    border-style: solid;
-    border-color: black;
-   
-  }
+
   /*HEADER*/
   body{
     height: 90%;
@@ -102,9 +97,14 @@ footer{
   color:white;
   text-align: center;
   font-size: 1.75em;
+  height: 100%;
+
  
 }
-*/
+
+.footer-icon{
+  color: white;
+}
 
 .footer-icon:hover{
 color:orangered;
@@ -184,6 +184,7 @@ label{
   text-align: center;
   width: 60%;
   margin: auto;
+  padding-top: 1%;
 }
 .pizza_name{
   background-color: white;
@@ -206,7 +207,22 @@ form{
   display: flex;
   border-style: solid;
   border-color: black;
+  background-color:lightgray;
+  text-align: center;
+  width: 60%;
+  margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .payment{
+    flex-direction: column;
+
+  }
+  .two_column{
+    flex-direction: column;
+  }
+}
+
 .billing_address{
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 5%;
@@ -220,11 +236,17 @@ form{
 
 }
 #submit{
+  text-align: center;
+
+}
+#button{
   font-size: 1.5em;
   color:white;
   background-color: darkred;
   border-style: solid;
   border-color: black;
+ 
+ 
 
 }
 .two_column{
