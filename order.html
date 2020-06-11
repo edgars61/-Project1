@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order</title>
+<!--BOOTSTRAP-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--VIEWPORT-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<!--IONICONS-->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<!--SCRIPT-->
+<script src="script.js"></script>
+<!--CSS-->
+<link type="text/css" rel="stylesheet" href="style.css">
+<!--FAVICON-->
+<link rel="icon" href="img/favicon-16x16.png" type="image/gif" sizes="16x16">
+</head>
+
+<!--HEADER TITLE WITH NAVIGATIOn-->
+<!--HEADER TITLE WITH NAVIGATIOn-->
+<header class="sticky">
+  <h1>Best<i>Pizza</i></h1>
+  <div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="order.html">Order</a>
+  </a>
+</header>
+<body onload="myFunction()">
+<form  action="https://formspree.io/moqkddlw"
+method="POST">
+  <!--HAWAIIAN-->
+  <div class="product">
+  <input class="checkbox" type="checkbox" name="hawaiaan" value="hawaiian"><label class="pizza_name">HAWAIIAN</label><br>
+  <label>Quantity</label>
+  <select id="quantity" name="quantity">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <label>Size</label>
+  <select id="size" name="size">
+    <option value=""></option>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select><br>
+  <img height="240px" width="240px" src="img/hawaiian.png">
+  </div>
+  <!--MEATHEAD-->
+  <div class="product">
+    <input class="checkbox" type="checkbox" name="meathead" value="meathead"><label class="pizza_name">MEATHEAD</label><br>
+    <label>Quantity</label>
+    <select id="quantity" name="quantity">
+      <option value=""></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <label>Size</label>
+    <select id="size" name="size">
+      <option value=""></option>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select><br>
+    <img height="240px" width="240px" src="img/meathead.png">
+    </div>
+    <div class="product">
+      <input class="checkbox" type="checkbox" name="margherita" value="margherita"><label class="pizza_name">MARGHERITA</label><br>
+      <label>Quantity</label>
+      <select id="quantity" name="quantity">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <label>Size</label>
+      <select id="size" name="size">
+        <option value=""></option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select><br>
+      <img height="240px" width="240px" src="img/margherita.png">
+      </div>
+      <div class="product">
+        <input class="checkbox" type="checkbox" name="veggieDelight" value="veggieDelight"><label class="pizza_name">VEGGIE DELIGHT</label><br>
+        <label>Quantity</label>
+        <select id="quantity" name="quantity">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <label>Size</label>
+        <select id="size" name="size">
+        <option value=""></option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+        </select><br>
+        <img height="240px" width="240px" src="img/veggie.png">
+        </div>
+        <div class="product">
+          <input class="checkbox" type="checkbox" name="bbqChicken" value="bbqChicken"><label class="pizza_name">SMOKY BBQ CHICKEN</label><br>
+          <label>Quantity</label>
+          <select id="quantity" name="quantity">
+            <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <label>Size</label>
+        <select id="size" name="size">
+          <option value=""></option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select><br>
+        <img height="240px" width="240px" src="img/bbq.png">
+        </div>
+          <div class="product">
+            <input class="checkbox" type="checkbox" name="garlicChicken" value="garlicChicken"><label class="pizza_name">GARLIC CHICKEN</label><br>
+            <label>Quantity</label>
+            <select id="quantity" name="quantity">
+          <option value=""></option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+            </select>
+            <label>Size</label>
+            <select id="size" name="size">
+              <option value=""></option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select><br>
+            <img height="240px" width="240px" src="img/garlic-chicken.png">
+          </div>
+         
+
+            <div class="payment">
+              <div class="billing_address">
+              <h3>Billing Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label><br>
+              <input type="text" id="fname" name="firstname" placeholder="John M. Doe"><br>
+              <label for="email"><i class="fa fa-envelope"></i> Email</label><br>
+              <input type="text" id="email" name="email" placeholder="john@example.com"><br>
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label><br>
+              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street"><br>
+              <label for="city"><i class="fa fa-institution"></i> City</label><br>
+              <input type="text" id="city" name="city" placeholder="New York"><br>
+              <div class="two_column">
+              <div>
+              <label for="state">State</label><br>
+              <input type="text" id="state" name="state" placeholder="NY"><br>
+            </div>
+            <div>
+              <label for="zip">Zip</label><br>
+              <input type="text" id="zip" name="zip" placeholder="10001"><br>
+            </div>
+            </div>
+            </div>
+            <div class="payment_info">
+              <h3 onload="myFunction()" >Payment</h3>
+              <label for="cname">Name on Card</label><br>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe"><br>
+              <label for="ccnum">Credit card number</label><br>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
+              <label for="expmonth">Exp Month</label><br>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September"><br>
+              <label for="expyear">Exp Year</label><br>
+              <input type="text" id="expyear" name="expyear" placeholder="2018"><br>
+              <label for="cvv">CVV</label><br>
+              <input type="text" id="cvv" name="cvv" placeholder="352"><br>
+              <label><input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing</label><br>
+              
+             
+            </div>
+            </div>
+            <div id="ready">
+             
+            </div>
+            <div  id="submit">
+            <input type="submit" id="button" value="Continue to checkout" class="btn"><br>
+            </div>
+            
+          
+    </form>
+  </body>
+    <footer>
+      <nav>
+        <a class="footer-icon"  href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a class="footer-icon"  href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a class="footer-icon" href="https://www.linkedin.com/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </nav>
+      <p>Copyright BestPizza 2020 &#169;</p>
+    </footer>
+ 
+
+
+</html>
+   
