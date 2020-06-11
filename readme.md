@@ -15,3 +15,11 @@ Improve responsiveness (adjust for most common screens currently only max and sc
 Add a dynamic cart that lets users only see what they're ordering,
 Improve aesthetics (use different fonts for sections, use a custom icon for restaurant name)
 Optimize code (use event handlers for Javascript, make reusable css components)
+
+
+
+
+
+
+DISCLAIMER:
+This website is for educational purposes only. The business this site promotes is purely fictional. There is no monetary or financial gain from the use of this content.
