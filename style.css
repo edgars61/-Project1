@@ -206,7 +206,6 @@ form{
 .payment{
   display: flex;
   border-style: solid;
-  border-color: black;
   background-color:lightgray;
   text-align: center;
   width: 60%;
