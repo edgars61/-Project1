@@ -248,6 +248,9 @@ form{
  
 
 }
+#ready{
+  text-align: center;
+}
 .two_column{
   display: flex;
 }
